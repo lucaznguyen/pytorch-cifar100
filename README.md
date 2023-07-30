@@ -2,6 +2,13 @@
 
 Official repository of [Overcoming limited training resources using Continual learning](https://drive.google.com/file/d/1lJvIE7s-jQ7ejPeO3tbp9oLcPdgPYrWi/view?usp=sharing)
 
+## Checkpoint
+### 1. Joint training
+[ResNet152](https://drive.google.com/drive/folders/1-6clW17ZCWbbG6rSpyl8oNAt9ZCgF1Xm?usp=sharing) | [ResNet18](https://drive.google.com/drive/folders/1mH4I2_F4wul8iPmzslvs0C5SnK4E2bqJ?usp=sharing) | [ResNet18-KD-ResNet152](https://drive.google.com/drive/folders/12S8qqI0az9xWQvMT3CtPotOsituyUyju?usp=sharing)
+
+### 2. Continual Learning
+These Continual Learning methods using ResNet18 backbone can be found [here](https://drive.google.com/drive/folders/1eRNhJXb_bgUCshyqcaz1hlN5uqqKLSxA?usp=sharing).
+
 ## Joint training
 
 ### 1. Requirements
