@@ -28,7 +28,7 @@ if __name__ == '__main__':
     parser.add_argument('-b', type=int, default=16, help='batch size for dataloader')
     args = parser.parse_args()
 
-    net = get_network(args)
+    net = get_network(args.net, gpu = args.gpu)
 
     cifar100_test_loader = get_test_dataloader(
         settings.CIFAR100_TRAIN_MEAN,
