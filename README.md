@@ -37,6 +37,7 @@ python test_full.py -net resnet152 -weights_full 'checkpoint_dir'
 ```
 
 ## Continual learning
+This implemetation is inspired from [Dark Experience Replay](https://github.com/aimagelab/mammoth) official repository.
 ```
 cd continual/
 ```
