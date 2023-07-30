@@ -27,7 +27,7 @@ python train.py -net resnet152 -gpu True
 ### 3. Train the model using Knowledge Distillation
 ```
 # train resnet18 distilled the knowledge from resnet152
-pyhon !python train_distillation.py -net resnet18 -gpu True -teacher_net resnet152 -teacher_checkpoint 'teacher_checkpoint'
+pyhon train_distillation.py -net resnet18 -gpu True -teacher_net resnet152 -teacher_checkpoint 'teacher_checkpoint'
 ```
 
 ### 4. Test the model
