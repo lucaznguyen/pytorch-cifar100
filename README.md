@@ -57,17 +57,17 @@ python utils/main.py --model derpp --dataset seq-cifar100 --buffer_size 2000 --l
 
 ### Continual learning methods
 <p align="center">
-  <img width="230" height="230" src="cl_acc.pdf" alt="cl_acc">
+  <img width="2000" height="811" src="figure/cl_acc.png" alt="cl_acc">
 </p>
 
 ### Training time
 <p align="center">
-  <img width="230" height="230" src="time.pdf" alt="time">
+  <img width="1000" height="750" src="time.png" alt="time">
 </p>
 
 ### Knowledge distillation approach
 <p align="center">
-  <img width="230" height="230" src="resnet_acc.pdf" alt="kd">
+  <img width="1000" height="750" src="resnet_acc.png" alt="kd">
 </p>
 
 
