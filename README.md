@@ -14,7 +14,7 @@ You need to specify the net you want to train using arg `-net`
 
 ```
 # use gpu to train resnet152 or resnet18
-python train.py -net resnet152 -gpu
+python train.py -net resnet152 -gpu True
 ```
 
 ### 3. Train the model using Knowledge Distillation
@@ -53,6 +53,22 @@ python utils/main.py --model derpp --dataset seq-cifar100 --buffer_size 2000 --l
 ```
 
 ## Results
+
+
+### Continual learning methods
+<p align="center">
+  <img width="230" height="230" src="cl_acc.pdf" alt="cl_acc">
+</p>
+
+### Training time
+<p align="center">
+  <img width="230" height="230" src="time.pdf" alt="time">
+</p>
+
+### Knowledge distillation approach
+<p align="center">
+  <img width="230" height="230" src="resnet_acc.pdf" alt="kd">
+</p>
 
 
 
